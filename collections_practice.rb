@@ -34,6 +34,7 @@ def kesha_maker(array)
 
 def find_a(array)
   array.select { |letter| letter.start_with?("a")  }
+                          #letter[0] == "a"
 end
 
 def sum_array(array)
